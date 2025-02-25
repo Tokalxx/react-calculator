@@ -21,7 +21,7 @@ export const Buttons = ({ onClick }) => {
         <Num_Btn num={1} onClick={onClick} />
         <Num_Btn num={2} onClick={onClick} />
         <Num_Btn num={3} onClick={onClick} />
-        <Sign_Btn sign={"/"} onClick={onClick} />
+        <Sign_Btn sign={"//"} onClick={onClick} />
       </div>
       <div className="div-row">
         <Num_Btn num={0} onClick={onClick} />
